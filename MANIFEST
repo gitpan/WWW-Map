@@ -1,0 +1,19 @@
+Build.PL
+Changes
+lib/WWW/Map.pm
+lib/WWW/Map/MapQuest.pm
+lib/WWW/Map/Multimap.pm
+lib/WWW/Map/Streetdirectory.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/00-load.t
+t/01-mapquest.t
+t/02-multimap.t
+t/03-streetdirectory.t
+t/pod-coverage.t
+t/pod.t
+
+SIGNATURE    Added here by Module::Build

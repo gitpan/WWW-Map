@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.39.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 4a9cce5668d95fae0ed6bbccd803b6015fcdf974 Build.PL
+SHA1 e6ffca92f0c1aabaa0c9202d35e70ac8a72572a4 Changes
+SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
+SHA1 34a3369b8752dc65931037dd4ce069bd487a8659 MANIFEST
+SHA1 578d14dc04d1b587f6c8cd307150ffb0b49b69e9 META.yml
+SHA1 1099db72cd05ad1cad02a0b579d5f8c9786e1e92 Makefile.PL
+SHA1 f784b47618eb4d9b1b601ddd9bf98455e0d01157 README
+SHA1 cbadf3f8ca197a9c7897756d60b64c6ea1cc5d50 lib/WWW/Map.pm
+SHA1 ae2ecd626b9dde67fc30a6f61e94b90c6a0e9358 lib/WWW/Map/MapQuest.pm
+SHA1 99f3e1063f17b5804bacb0187992b6e3b4b4a588 lib/WWW/Map/Multimap.pm
+SHA1 3440fd942db1b9091ebe25aaa64df61ed80c6cd4 lib/WWW/Map/Streetdirectory.pm
+SHA1 04e0fbd84ac154be6027b2642687d88ed178d4fb t/00-load.t
+SHA1 c1d8320abdcaf9ac48945b4ffb0a0cc3ea5d3406 t/01-mapquest.t
+SHA1 0e03620a484d3140c44310a7afdfa584abf27420 t/02-multimap.t
+SHA1 1b381518be4af61856dc34897b1f52f3a05e7ec4 t/03-streetdirectory.t
+SHA1 70d494caa2db9e71d8c0f008721aba08aa25a1da t/pod-coverage.t
+SHA1 e9c6a5881fc60173fbc8d479c1afd2ce3b43bef1 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFA7ufn3Or3ZzQuifMRAgPnAKClZDTitiGmqPgZHCGnfJqP8zcOkgCfaYCN
+8vej9IBjfchCjaKEllfn7HE=
+=f3Hw
+-----END PGP SIGNATURE-----

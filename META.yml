@@ -1,0 +1,21 @@
+--- #YAML:1.0
+name: WWW-Map
+version: 0.01
+author: David Rolsky <autarch@urth.org>
+abstract: An API for generating links to online map services
+license: perl
+requires:
+  Geography::States: 0
+  Params::Validate: 0
+  Test::More: 0
+provides:
+  WWW::Map:
+    file: lib/WWW/Map.pm
+    version: 0.01
+  WWW::Map::MapQuest:
+    file: lib/WWW/Map/MapQuest.pm
+  WWW::Map::Multimap:
+    file: lib/WWW/Map/Multimap.pm
+  WWW::Map::Streetdirectory:
+    file: lib/WWW/Map/Streetdirectory.pm
+generated_by: Module::Build version 0.25
